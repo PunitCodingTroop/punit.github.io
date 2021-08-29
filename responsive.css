@@ -1,0 +1,48 @@
+#logoName{
+	display: block;
+    /* border: 2px solid red; */
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+/* nav{
+	display: none;
+} */
+
+
+nav ul{
+	display: block;
+}
+
+.categories{
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.categoryBox{
+	display: block;
+	margin: auto;
+}
+
+.darkIcon{
+	display: none;
+}
+
+#language{
+	display: none;
+}
+
+.searchbar{
+	width: 70%
+}
+
+#openNavbar{
+	display: block;
+	font-size: 25px;
+    padding: 10px 120px;
+    color: white;
+    background: transparent;
+    border: 1.4px solid white;
+    margin: 0px auto;
+}

@@ -1,0 +1,507 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+ 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+#indiaImgDiv {
+  background: url("pics/india.png");
+  height: 20px;
+  border: 2px solid red;
+}
+
+#openNavbar{
+	display: none;
+}
+
+
+
+nav {
+  z-index: 6;
+  background: black;
+  position: sticky;
+  top: 0;
+}
+
+option {
+  width: 200px;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.darkIcon {
+  height: 30px;
+  filter: invert(100%);
+}
+
+.searchbar {
+  width: 500px;
+  font-size: 17px;
+  padding: 8px;
+}
+
+.darkBtn {
+  background: transparent;
+  border: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBtn {
+  border: 1.4px solid white;
+  height: 41px;
+  background: transparent;
+  width: 90px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+/* --------------------Banner Img ------------ */
+.banner img {
+  width: 99%;
+  height: 500px;
+}
+
+/* ------------------ key points ------------ */
+/* 
+.keyPointsSec{
+	border: 2px solid red;
+} */
+
+.keyPointsCont {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeffd4;
+}
+
+.keyPointsBox {
+  /* border: 2px solid blue; */
+  width: 370px;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.keyPointsBox h1 {
+  color: black;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.keyPointsBox img {
+  height: 35px;
+}
+
+/* --------------- Categories ------------ */
+
+.categories {
+  display: flex;
+  /* position: sticky; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* top: 55px; */
+  background: white;
+  height: 130px;
+  overflow-y: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.categoryBox {
+  padding: 10px;
+  /* border: 1.4px solid blue; */
+  height: 100px;
+  width: 150px;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.categoryBox img {
+  height: 40px;
+  display: block;
+  padding: 10px;
+  margin: auto;
+}
+
+a {
+  font-size: 13px;
+  text-decoration: none;
+  display: block;
+  padding-bottom: 5px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+a:hover {
+  color: rgb(18, 156, 18);
+}
+
+/* ------------ offers Box ----------------- */
+.offers {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+}
+
+.offersContainer h1 {
+  font-size: 45px;
+  text-align: center;
+  padding: 15px;
+}
+
+.offersBox {
+  /* border: 2px solid red; */
+  height: 510px;
+  margin: 20px;
+  width: 330px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 12px;
+}
+
+.offersBox:hover {
+  transition: 0.3s;
+  transform: scale(1.09);
+  z-index: 1;
+}
+
+.offersBox img {
+  height: 330px;
+  width: inherit;
+  display: block;
+  border-radius: 12px;
+  margin: auto;
+}
+
+.priceMoney {
+  text-align: center;
+  color: rgb(2, 182, 2);
+}
+
+.discountMoney {
+  color: red;
+}
+
+.offersBox h3 {
+  font-weight: normal;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.offersBox h5 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.buyNow {
+  background: white;
+  border: 1.4px solid black;
+  border-radius: 8px;
+  padding: 8px 21px;
+}
+
+.offerBtn {
+  background: transparent;
+  display: block;
+  border: none;
+  margin: 20px auto;
+}
+
+.buyNow:hover {
+  transition: 0.2s;
+  color: white;
+  background: black;
+}
+
+/* ---------------- Tracking section ------------ */
+
+.tracking{
+  display: flex;
+  align-items: center;
+  background: whitesmoke;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+
+.trackingCont{
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trackingBox{
+  /* border: 2px solid green; */
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}
+
+.trackingBox img{
+  height: 250px;
+}
+
+.tracking h1{
+  font-size: 35px;
+}
+
+.tracking p{
+  padding: 25px;
+  font-weight: bold;
+}
+/* ------------------------ Transaction -------------------- */
+
+.transaction{
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.transactionCont{
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.transactionBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* border: 2px solid green; */
+  width: 400px;
+  height: 400px;
+}
+
+.transactionBox img{
+  height: 380px;
+}
+
+.transactionBox h1{
+  font-size: 33px;
+}
+
+.transaction p{
+  padding: 25px;
+  font-weight: bold;
+}
+/* ------------------------ Transaction -------------------- */
+
+.onlineBusiness{
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: whiteSmoke;
+}
+
+.onlineBusinessCont{
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.onlineBusinessBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* border: 2px solid green; */
+  width: 400px;
+  height: 400px;
+}
+
+.onlineBusinessBox img{
+  height: 300px;
+}
+
+.onlineBusinessBox h1{
+  font-size: 30px;
+  text-align: center;
+}
+
+.onlineBusiness p{
+  padding: 25px;
+  font-weight: bold;
+}
+
+/* ------------------------ Transaction -------------------- */
+
+.courierService{
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: white;
+}
+
+.courierServiceCont{
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.courierServiceBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* border: 2px solid green; */
+  width: 400px;
+  height: 400px;
+}
+
+.courierServiceBox img{
+  height: 300px;
+}
+
+.courierServiceBox h1{
+  font-size: 30px;
+  text-align: center;
+}
+
+.courierService p{
+  padding: 25px;
+  font-weight: bold;
+}
+
+
+/* ---------------- recommend ---------------------- */
+.centerRecommend{
+  /* border:2px solid rgb(2, 182, 2); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.recommend{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  display: flex;
+  align-items: center;
+  /* background-color: black; */
+  justify-content: center;
+  width: 90%;
+  padding: 10px;
+}
+
+.recommendCont{
+  display: flex;
+  /* background-color: lightblue; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  height: 225px;
+  overflow-y: auto;
+}
+
+.recommendBox{
+  /* border: 2px solid blue; */
+  height: 200px;
+  width: 200px;
+  margin: 20px 10px ;
+}
+
+
+.productImg{
+  /* border: 2px solid red; */
+  height: 130px;
+  /* width: 180px; */
+}
+
+.productCost{
+  text-align: center;
+  color: green;
+  font-size: 14px;
+}
+
+.productName{
+  padding: 0;
+}
+
+.productImg img{
+  height: inherit;
+  display: block;
+  margin: auto;
+  width: inherit;
+}
+
+#scroll{
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  color: green;
+  display: block;
+  visibility: none;
+}
+
+/* --------------------- Footer -------------------- */
+footer{
+  color:white;
+  background: black;
+  padding: 10px;
+}
+
+.footerCont{
+  display: flex;
+  /* border: 2px solid yellow; */
+}
+
+.footerBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid white; */
+  height: 80px;
+  width: 50%;
+}
+
+.footerBox h5{
+  padding: 10px;
+}

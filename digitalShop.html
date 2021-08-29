@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="digtitalShop.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1170px)"
+      href="responsive.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Digital Shop</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><h1 class="logoName" id="logoName">DigitalShop</h1></li>
+        <li class="flex">
+          <input type="text" class="searchbar" id="search" /><button
+            class="searchBtn"
+            id="searchBtn"
+          >
+            Search
+          </button>
+        </li>
+        <button id="openNavbar">Menu</button>
+        <li>
+          <button class="darkBtn">
+            <img src="pics/join.png" alt="" class="darkIcon" />
+          </button>
+        </li>
+        <li id="language">Language</li>
+      </ul>
+    </nav>
+
+    <section class="keyPointsSec">
+      <div class="keyPointsCont">
+        <div class="keyPointsBox">
+          <img src="pics/safeDelivery.png" alt="" />
+          <h1>Safe and Secure Delivery</h1>
+        </div>
+
+        <div class="keyPointsBox">
+          <img src="pics/fastDelivery.png" alt="" />
+          <h1>Fastest Delivery ever</h1>
+        </div>
+
+        <div class="keyPointsBox">
+          <img src="pics/check.png" alt="" />
+          <h1>100% Product Guarantee</h1>
+        </div>
+
+        <div class="keyPointsBox">
+          <img src="pics/discount.png" alt="" />
+          <h1>Biggest Offers and Discount ever</h1>
+        </div>
+
+        <div class="keyPointsBox">
+          <img src="pics/customerCare.png" alt="" />
+          <h1>24X7 Customer Support</h1>
+        </div>
+
+        <div class="keyPointsBox">
+          <img src="pics/returnOrder.png" alt="" />
+          <h1>Return order in 28 Days in case of defection</h1>
+        </div>
+      </div>
+    </section>
+
+    <div class="categories">
+      <div class="categoryBox">
+        <img src="pics/electricalAppliance.png" alt="" />
+        <a href="#">Electrical Appliances</a>
+      </div>
+
+      <div class="categoryBox">
+        <img src="pics/laptop.png" alt="" />
+        <a href="#">Laptop & PC </a>
+      </div>
+
+      <div class="categoryBox">
+        <img src="pics/smartphones.png" alt="" />
+        <a href="#">Smartphones & Accessories</a>
+      </div>
+
+      <div class="categoryBox">
+        <img src="pics/USB.png" alt="" />
+        <a href="#">Laptop & PC Accessories</a>
+      </div>
+
+      <div class="categoryBox">
+        <img src="pics/gadgets.png" alt="" />
+        <a href="#">Modern Gadgets</a>
+      </div>
+
+      <div class="categoryBox">
+        <img src="pics/toys.png" alt="" />
+        <a href="#">Toys</a>
+      </div>
+
+      <div class="categoryBox">
+        <img src="pics/kitchenAppliances.png" alt="" />
+        <a href="#">Kitchen Appliances</a>
+      </div>
+
+      <div class="categoryBox">
+        <img src="pics/grocery.png" alt="" />
+        <a href="#">Grocery</a>
+      </div>
+
+      <div class="categoryBox">
+        <img src="pics/medicine.png" alt="" />
+        <a href="#">Medicines & Syrup</a>
+      </div>
+
+      <div class="categoryBox">
+        <img src="pics/courier.png" alt="" />
+        <a href="#">Courier Service</a>
+      </div>
+
+      <div class="categoryBox">
+        <img src="pics/hotels.png" alt="" />
+        <a href="#">Hotels & Rooms</a>
+      </div>
+
+      <div class="categoryBox">
+        <img src="pics/books.png" alt="" />
+        <a href="#">Books & Stationeries </a>
+      </div>
+
+      <div class="categoryBox">
+        <img src="pics/dress.png" alt="" />
+        <a href="#">Wardrobe Fashions</a>
+      </div>
+
+      <div class="categoryBox">
+        <img src="pics/restaurant.png" alt="" />
+        <a href="#">Restaurant</a>
+      </div>
+    </div>
+
+    <div class="offersContainer">
+      <h1>Offers Of The Day</h1>
+
+      <div class="offers">
+        <div class="offersBox">
+          <img src="pics/laptopConnector.jpg" alt="" />
+          <h3>Buy a multiple stuff connector</h3>
+          <h3 class="priceMoney">At 4,500/- Rs. Save 25%</h3>
+          <h5>From</h5>
+          <h3 class="discountMoney"><del>6,000/-.</del> Rs</h3>
+          <button class="offerBtn">
+            <a href="#" class="buyNow">Buy Now</a>
+          </button>
+        </div>
+
+        <div class="offersBox">
+          <img src="pics/airpod.jpg" alt="" />
+          <h3>Brand new Apple Airpods</h3>
+          <h2 class="priceMoney">At 40% Discount</h2>
+          <h3>Save more than<span class="priceMoney"> 5,000/- Rs.</span></h3>
+          <button class="offerBtn">
+            <a href="#" class="buyNow">Buy Now</a>
+          </button>
+        </div>
+
+        <div class="offersBox" id="scroll1">
+          <img src="pics/vivo_phone.jpg" alt="" />
+          <h4>Buy your new phone with us</h4>
+          <h2 class="priceMoney">At 25% Discount</h2>
+          <h3>Get cashback of <span class="priceMoney"> 3,000/- Rs.</span></h3>
+          <button class="offerBtn">
+            <a href="#" class="buyNow">Buy Now</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <h1 id="scroll">" Scroll " to see more</h1>
+    <div class="centerRecommend">
+      <div class="recommend">
+        <div class="recommendCont" id="scrolling">
+          <div class="recommendBox">
+            <div class="productImg">
+              <img
+                src="https://www.gizmochina.com/wp-content/uploads/2018/04/Xiaomi-Mi-Gaming-Laptop-I7-500x500.jpg"
+                alt=""
+              />
+            </div>
+            <h4 class="prodcutName">HP envy Gaming-Laptop i7</h4>
+            <h5 class="productCost">&#8377; 79,899.00</h5>
+          </div>
+          <div class="recommendBox">
+            <div class="productImg">
+              <img
+                src="https://5.imimg.com/data5/DQ/SI/QT/SELLER-79827731/dell-inspiron-15-3583-laptop-500x500.jpg"
+                alt=""
+              />
+            </div>
+            <h4 class="prodcutName">Dell Inspiron i5 7th Gen</h4>
+            <h5 class="productCost">&#8377; 54,599.00</h5>
+          </div>
+          <div class="recommendBox">
+            <div class="productImg">
+              <img
+                src="https://5.imimg.com/data5/PX/MX/MY-14093141/intel-core-i5-processor-500x500.jpg"
+                alt=""
+              />
+            </div>
+            <h4 class="prodcutName">Intel Core i5 processor</h4>
+            <h5 class="productCost">&#8377; 17,699.00</h5>
+          </div>
+          <div class="recommendBox">
+            <div class="productImg">
+              <img
+                src="https://cdn.shopify.com/s/files/1/1780/7915/products/31zXk6ATEEL_600x600.jpg?v=1579701333"
+                alt=""
+              />
+            </div>
+            <h4 class="prodcutName">Mouse for Laptop & PC</h4>
+            <h5 class="productCost">&#8377; 980.00</h5>
+          </div>
+          <div class="recommendBox">
+            <div class="productImg">
+              <img
+                src="http://cdn.shopify.com/s/files/1/0248/1877/8165/products/41rsud4FuNL_800x.jpg?v=1602241317"
+                alt=""
+              />
+            </div>
+            <h4 class="prodcutName">Gaming keyboard and mouse</h4>
+            <h5 class="productCost">&#8377; 1,199.00</h5>
+          </div>
+          <div class="recommendBox">
+            <div class="productImg">
+              <img
+                src="https://5.imimg.com/data5/OB/ZT/EO/SELLER-55508106/wireless-bluetooth-headphone-500x500.jpg"
+                alt=""
+              />
+            </div>
+            <h4 class="prodcutName">Headphone wireless red</h4>
+            <h5 class="productCost">&#8377;1,899.00</h5>
+          </div>
+          <div class="recommendBox">
+            <div class="productImg">
+              <img
+                src="https://images.jdmagicbox.com/quickquotes/images_main/b07xt4y1m7-fidgetgear-p35-pro-android-smartphone-face-fingerprint-recognition-mobile-phone-6g-128g-ruby-red-british-regulatory-207350280-67b8h.jpg"
+                alt=""
+              />
+            </div>
+            <h4 class="prodcutName">VIVO with 48MP camera</h4>
+            <h5 class="productCost">&#8377;11,500.00</h5>
+          </div>
+          <div class="recommendBox">
+            <div class="productImg">
+              <img
+                src="https://4.imimg.com/data4/EB/GO/MY-25786111/bluetooth-speaker-500x500.jpg"
+                alt=""
+              />
+            </div>
+            <h4 class="prodcutName">Wireless portable speaker</h4>
+            <h5 class="productCost">&#8377; 1,899.00</h5>
+          </div>
+          <div class="recommendBox">
+            <div class="productImg">
+              <img
+                src="https://5.imimg.com/data5/JI/YI/ZZ/SELLER-54138444/alexa-echo-dot-3rd-gen-500x500.jpg"
+                alt=""
+              />
+            </div>
+            <h4 class="prodcutName">Alexa</h4>
+            <h5 class="productCost">&#8377; 2,299.00</h5>
+          </div>
+          <div class="recommendBox">
+            <div class="productImg">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0050/1468/3737/products/32d0dd61685bfd4fc90b1686a0e185ed_e3f70748-161e-4429-9a6c-04ca0016045f.jpg?v=1558567190"
+                alt=""
+              />
+            </div>
+            <h4 class="prodcutName">52 Inch 16K Led</h4>
+            <h5 class="productCost">&#8377; 89,999.00</h5>
+          </div>
+          <div class="recommendBox">
+            <div class="productImg">
+              <img
+                src="https://vasanthandco.in/image/cache/catalog/custom/product/Air%20Conditioner/Ac%20Images/Samsung-AR12NV3UFMCNNA-1-Ton-Split-AC-500x500.jpg"
+                alt=""
+              />
+            </div>
+            <h4 class="prodcutName">Voltas 1.5 Ton Air Conditioner</h4>
+            <h5 class="productCost">&#8377; 35,999.00</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="tracking">
+      <div class="trackingCont">
+        <div class="trackingBox">
+          <img src="pics/tracking.png" alt="" />
+        </div>
+        <div class="trackingBox">
+          <h1>Track your order live</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
+            similique illum natus deserunt accusamus quidem consequuntur
+            doloremque asperiores provident delectus.
+          </p>
+          <button class="offerBtn">
+            <a href="#" class="buyNow">Learn More</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="transaction">
+      <div class="transactionCont">
+        <div class="transactionBox">
+          <h1>Safe online transaction</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae
+            dignissimos necessitatibus error pariatur eligendi reiciendis
+            corrupti, incidunt blanditiis ipsum maiores.
+          </p>
+          <button class="offerBtn">
+            <a href="" class="buyNow">Learn More</a>
+          </button>
+        </div>
+        <div class="transactionBox">
+          <img src="pics/safeTransaction.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="onlineBusiness">
+      <div class="onlineBusinessCont">
+        <div class="onlineBusinessBox">
+          <img src="pics/OB1.png" alt="" />
+        </div>
+        <div class="onlineBusinessBox">
+          <h1>Bring your business online with us</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae
+            dignissimos necessitatibus error pariatur eligendi reiciendis
+            corrupti, incidunt blanditiis ipsum maiores.
+          </p>
+          <button class="offerBtn">
+            <a href="" class="buyNow">Let's Start</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="courierService">
+      <div class="courierServiceCont">
+        <div class="courierServiceBox">
+          <h1>Digital courier service</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae
+            dignissimos necessitatibus error pariatur eligendi reiciendis
+            corrupti, incidunt blanditiis ipsum maiores.
+          </p>
+          <button class="offerBtn">
+            <a href="" class="buyNow">Let's Start</a>
+          </button>
+        </div>
+        <div class="courierServiceBox">
+          <img
+            src="https://plantingseedscaribbean.com/store/wp-content/uploads/2021/03/delivery.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footerCont">
+        <div class="footerBox">
+          <h1>DigitalShop Pvt. Ltd.</h1>
+          <h5>All rights reserved &copy;</h5>
+        </div>
+        <div class="footerBox">
+          <h4  class="material-icons-outlined">H no.288 Dharam Colony Palam Vihar Extension Gurugram, Haryana, India</h4>
+          <h5>+91 8882119169,  +91 8700652740</h5>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="digitalShop.js"></script>
+</html>
